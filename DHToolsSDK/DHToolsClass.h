@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DHToolsSDKDefine.h"
 @interface DHToolsClass : NSObject
 
 #pragma mark - 获取当前时间戳

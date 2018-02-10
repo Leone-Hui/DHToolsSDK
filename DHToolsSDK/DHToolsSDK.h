@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import <DHToolsSDK/DHToolsClass.h>
+#import <DHToolsSDK/DHToolsSDKDefine.h>
 
 
 

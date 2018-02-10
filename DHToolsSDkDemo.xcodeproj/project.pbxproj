@@ -33,6 +33,7 @@
 		40ADEFDC202EEB8A003DFEED /* DHToolsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40ADEFD4202EEB8A003DFEED /* DHToolsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		40ADEFE3202EEBFD003DFEED /* DHToolsClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 40ADEFE1202EEBFD003DFEED /* DHToolsClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40ADEFE4202EEBFD003DFEED /* DHToolsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ADEFE2202EEBFD003DFEED /* DHToolsClass.m */; };
+		40ADEFEB202EFC27003DFEED /* DHToolsSDKDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 40ADEFEA202EFBAF003DFEED /* DHToolsSDKDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		40ADEFD7202EEB8A003DFEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40ADEFE1202EEBFD003DFEED /* DHToolsClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHToolsClass.h; sourceTree = "<group>"; };
 		40ADEFE2202EEBFD003DFEED /* DHToolsClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHToolsClass.m; sourceTree = "<group>"; };
+		40ADEFEA202EFBAF003DFEED /* DHToolsSDKDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHToolsSDKDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				40ADEFD7202EEB8A003DFEED /* Info.plist */,
 				40ADEFE1202EEBFD003DFEED /* DHToolsClass.h */,
 				40ADEFE2202EEBFD003DFEED /* DHToolsClass.m */,
+				40ADEFEA202EFBAF003DFEED /* DHToolsSDKDefine.h */,
 			);
 			path = DHToolsSDK;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				40ADEFD8202EEB8A003DFEED /* DHToolsSDK.h in Headers */,
 				40ADEFE3202EEBFD003DFEED /* DHToolsClass.h in Headers */,
+				40ADEFEB202EFC27003DFEED /* DHToolsSDKDefine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
