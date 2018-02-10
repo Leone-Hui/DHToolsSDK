@@ -1,0 +1,6 @@
+framework module DHToolsSDK {
+  umbrella header "DHToolsSDK.h"
+
+  export *
+  module * { export * }
+}
